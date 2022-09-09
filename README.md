@@ -16,9 +16,9 @@ Steps taken to create a crawler:
 3. Raise a simple scrapy.Request and extract all the values for Benches and Appeal Type columns.
 4. For each pair<br/>
    &nbsp;&nbsp;&nbsp;&nbsp;raised a http form request and counted the no. of pages for the results
-5. For every page<br/>
+5. For every page of the result<br/>
    &nbsp;&nbsp;&nbsp;&nbsp;for every record in the result<br/> 
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extracted the key:value pair
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extract key:value pair
     
     
 We have defined the Item class to create a container to store the extracted data and also created an Item pipeline to store the extracted data into a json file.
