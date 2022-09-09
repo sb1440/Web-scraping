@@ -15,7 +15,7 @@ Steps taken to create a crawler:
 2. Inorder to pass the Date of order as argument at the time of command execution, I have declared it in self.__init__() of spider class and initialize the url too.
 3. Raise a simple scrapy.Request and extract all the values for Benches and Appeal Type columns.
 4. For each pair<br/>
-   &nbsp;&nbsp;&nbsp;&nbsp;raised a http form request and counted the no. of pages for the results
+   &nbsp;&nbsp;&nbsp;&nbsp;raised a http form request and count the no. of pages for the corresponding results
 5. For every page of the result<br/>
    &nbsp;&nbsp;&nbsp;&nbsp;for every record in the result<br/> 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extract key:value pair
